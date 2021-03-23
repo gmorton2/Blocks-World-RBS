@@ -6,15 +6,6 @@
 • Project number and name
 	Project 1: Blocks World RBS
 
-• Team name and members
-	The A Team:
-		Garinn Morton II
-		Kenny Giang
-		Gabriel Magallanes
-		Jon Dorman
-		Eric Du
-		Gregory Pierot
-
 • Intro (including the algorithm used)
 
 	For Blocks World we utilized alogrithms known as State-Space Search & Rule-Based Systems (RBSs). In this project, we built a Blocks World RBS planner that took a Blocks World rule-set, a starting state and a goal state and constructed a sequence of gripper operations that converted the starting state into the goal state. It also employed a reasonable heuristic function to avoid “expanding” too many nodes in the search.
@@ -57,6 +48,7 @@
 nil
 
 • Features (both included and missing)
+
 	Global Variables:
 		rbs-open
 		rbs-closed
